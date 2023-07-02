@@ -155,7 +155,7 @@ body {
   margin-top: 50px;
 }
 
-.btn1{
+.btn-1{
   display: inline-block;
   padding: 15px 35px;
   border: 2px solid #DB241B;
@@ -167,7 +167,7 @@ body {
   border-radius: 50px;
 }
 
-.btn1-hover{
+.btn-1:hover{
   border: 2px solid #DB241B;
   background-color: #DB241B;
 }
@@ -220,6 +220,10 @@ body {
   color: #ffffff;
 }
 
+.tabs input[type="radio"]:checked + label + .tab {
+  display: block;
+}
+
 .product{
   display: flex;
   align-items: center;
@@ -245,7 +249,7 @@ body {
   margin-bottom: 50px;
 }
 
-.product.img img{
+.product-img img{
   width: 150px;
   height: 120px;
 }
