@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProyectoAMD</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+
+        <div class="menu container">
+            <img class="logo-1" src="../multimedia/logos/logoamdnegroygris.png" alt="logo">
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="../multimedia/logos/menuarrow.png" class="menu-icono" alt="">
+            </label>
+
+            <nav class="navbar">
+                <div class="menu-1">
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="./pages/contacto.html">Contacto</a></li>
+                        <li><a href="./pages/logueo.html">Mi Cuenta</a></li>
+                    </ul>
+                </div>
+                <img class="logo-2" src="../multimedia/logos/logoamdnegroygris.png" alt="">
+
+                <div class="menu-2">
+                    <ul>
+                        <li><a href="#">Horario</a></li>
+                    </ul>
+                    <div class="socials">
+                        <a href="#">
+                            <div class="social">
+                                <img src="../multimedia/logos/facebook.svg" alt="Facebook">
+                            </div>
+                        </a>
+                        <a href="https://twitter.com/AMD?s=20">
+                            <div class="social">
+                                <img src="../multimedia/logos/twitter.svg" alt="Twitter">
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/amd/">
+                            <div class="social">
+                                <img src="../multimedia/logos/instagram.svg" alt="Instagram">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+
+        <div class="header-content container">
+
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>RX 6600 Series</h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo libero magnam corrupti neque qui, placeat magni quis adipisci accusamus reiciendis ea provident laborum quae sequi velit, tempora commodi maiores quo!
+                                </p>
+                                <div class="botones">
+                                    <a href="#" class="btn-1">Informacion</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="../multimedia/imagenes/slider1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Ryzen 7</h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo libero magnam corrupti neque qui, placeat magni quis adipisci accusamus reiciendis ea provident laborum quae sequi velit, tempora commodi maiores quo!
+                                </p>
+                                <div class="botones">
+                                    <a href="#" class="btn-1">Informacion</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="../multimedia/imagenes/slider2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Next Level</h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo libero magnam corrupti neque qui, placeat magni quis adipisci accusamus reiciendis ea provident laborum quae sequi velit, tempora commodi maiores quo!
+                                </p>
+                                <div class="botones">
+                                    <a href="#" class="btn-1">Informacion</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="../multimedia/imagenes/slider3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+    </header>
+
+    <main class="products">
+        <div class="contenidocontacto">
+            <form>
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" id="nombre" 
+                placeholder="Ingrese su nombre" required>
+    
+                <label for="apellido">Apellido: </label>
+                <input type="text" name="apellido" id="apellido" 
+                placeholder="Ingrese su apellido" required>
+    
+                <label for="mail">Mail: </label>
+                <input type="text" name="mail" id="mail" 
+                placeholder="Ingrese su MAIL" required>
+    
+                <h2>Ingrese su mensaje debajo.</h2>
+    
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+    
+                <fieldset class="sexo">
+                    <legend>Sexo: </legend>
+                <label for="mujer">Mujer</label>
+                <input type="radio" name="sexo" id="mujer" value="mujer">
+                <label for="hombre">Hombre</label>
+                <input type="radio" name="sexo" id="hombre" value="hombre">
+                <label for="nobinario">No Binario</label>
+                <input type="radio" name="sexo" id="nobinario" value="nobinario">
+                </fieldset>
+    
+                <select name="tipodeusuario" id="">
+                    <option value="persona">Persona</option>
+                    <option value="empresa">Empresa</option>
+                </select>
+    
+                <label for="terminos">Acepta terminos y condiciones</label>
+                <input type="checkbox" name="terminos" id="terminos" value="acepto" required>
+    
+                <button type="submit">Enviar</button>
+                <button type="reset">Resetear</button>
+            </form>
+        </div>
+    </main>
+
+    <section class="info container">
+
+        <div class="info-img">
+            <img src="../multimedia/imagenes/menu.jpg" alt="">
+        </div>
+
+        <div class="info-txt">
+            <h2>Informacion</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, cupiditate vitae esse sequi nam culpa. Voluptatem rerum expedita quos excepturi dolorem totam.
+            Qui itaque numquam fugiat odit molestiae eius illo.
+            </p>
+            <a href="#" class="btn-2">Mas informacion</a>
+        </div>
+
+    </section>
+
+    <section class="horario">
+        <div class="horario-info container">
+
+            <h2>Horario</h2>
+            <div class="horario-txt">
+                <div class="txt">
+                    <h4>Direccion</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="txt">
+                    <h4>Horario</h4>
+                    <p>Lunes a Viernes: 9 am - 6 pm</p>
+                    <p>Sabado: 9 am - 1 pm</p>
+                </div>
+                <div class="txt">
+                    <h4>Telefono</h4>
+                    <p>0800-111-1111</p>
+                </div>
+                <div class="txt">
+                    <h4>Redes Sociales</h4>
+                    <div class="socials">
+                        <a href="#">
+                            <div class="social">
+                                <img src="../multimedia/logos/facebook.svg" alt="Facebook">
+                            </div>
+                        </a>
+                        <a href="https://twitter.com/AMD?s=20">
+                            <div class="social">
+                                <img src="../multimedia/logos/twitter.svg" alt="Twitter">
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/amd/">
+                            <div class="social">
+                                <img src="../multimedia/logos/instagram.svg" alt="Instagram">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26261.751436739523!2d-58.449391!3d-34.6365425!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb4972e67e8d%3A0x3deda9dd5b2f490c!2sElit%20Sa!5e0!3m2!1ses-419!2sar!4v1688145952273!5m2!1ses-419!2sar" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+    <footer class="footer container">
+        <img class="logo-2" src="../multimedia/logos/logoryzen.png" alt="">
+        <div class="links">
+            <h4>Pagina oficial y Centro de distrubucion autorizado Argentina</h4>
+            <ul>
+                <li><a href="https://www.amd.com/es.html">AMD Oficial</a></li>
+                <li><a href="https://www.elit.com.ar/">Elit Oficial</a></li>
+            </ul>
+        </div>
+        <div class="links">
+            <h4>Redes Sociales</h4>
+            <div class="socials">
+                <a href="#">
+                    <div class="social">
+                        <img src="../multimedia/logos/facebook.svg" alt="Facebook">
+                    </div>
+                </a>
+                <a href="https://twitter.com/AMD?s=20">
+                    <div class="social">
+                        <img src="../multimedia/logos/twitter.svg" alt="Twitter">
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/amd/">
+                    <div class="social">
+                        <img src="../multimedia/logos/instagram.svg" alt="Instagram">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="../script.js"></script>
+</body>
+</html>
